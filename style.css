@@ -1,0 +1,257 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+/* 
+COLOR SCHEME:
+light-yellow: #FFF1D2
+yellow: #FFD470
+blue: #92B8C8
+brown: #B66A3E
+Grey: #494649
+offblack: #252218
+
+font-family: 'Anonymous Pro', monospace;
+font-family: 'Kosugi Maru', sans-serif;
+*/ 
+
+body {
+  font-family: 'Anonymous Pro', monospace;
+  background-color: #FFD470;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-custom {
+  background-color: #252218;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  color: #FFD470;
+}
+
+.navbar-brand:hover {
+  color: #B66A3E;
+}
+
+#nav-avatar {
+  object-fit: cover;
+  object-position: center;
+  max-width: 42px;
+  border-radius: 15px;
+  border: solid 2px #92B8C8;
+  margin: 0 10px;
+}
+
+.nametag {
+  font-size: 18px;
+  color: #92B8C8;
+  font-family: 'Kosugi Maru', sans-serif
+}
+
+.navbar-text {
+  color: #92B8C8;
+  font-family: 'Kosugi Maru', sans-serif
+}
+
+.nav-link:hover {
+  color: #FFD470;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 212, 112, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.hero-img { 
+  width: 100%;
+  height: 85vh;
+  margin: 85px 0 0 0;
+  background-image: url(img/soccergoal.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  height: 100%;
+  background-color: rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-avatar {
+  position: relative;
+  width: 15%;
+  height: auto;
+  padding-bottom: 15%;
+  border-radius: 50%;
+  border: solid 2px #FFF1D2;
+  background-image: url(img/heroavatar.jpeg);
+  background-size: cover;
+  background-position: top;
+}
+
+.hero-text {
+  color: #FFF1D2;
+  text-align: center;
+}
+
+#hero-heading {
+  font-size: 4.75vw;
+  text-transform: uppercase;
+}
+
+#hero-tag {
+  font-size: 2.75vw;
+}
+
+.projects-block {
+  background-color: #FFD470;
+  height: 50vh;
+}
+
+#projects-header {
+  color: #252218;
+  padding: 5vh 0;
+}
+
+#marriott {
+  width: 9.5vw;
+}
+
+#question {
+  width: 6.2vw;
+}
+
+#marriott-text, #question-text {
+  color: #252218;
+  font-size: 1.3vw; 
+  padding-top: 1.43vw;
+}
+
+.mission-block {
+  background-color: #252218;
+  height: 70vh;
+}
+
+#mission-header {
+  color: #FFD470;
+  padding: 5vh 0;
+}
+
+.mission-img {
+  width: 50%;
+  height: 40vh;
+  background-image: url(img/missionpic.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.mission-text {
+  color: #FFD470;
+  font-size: 1.3vw;
+  display: flex;
+  align-items: center;
+}
+
+.skills-block {
+  background-color: #92B8C8;
+  height: 70vh;
+}
+
+#skills-header {
+  color: #FFD470;
+  padding: 5vh 0;
+}
+
+#html5 {
+  font-size: 6vw;
+  color: #B66A3E;
+}
+
+#css3 {
+  font-size: 6vw;
+  color: blue;
+}
+
+#cplusplus {
+  font-size: 6vw;
+  color: #FFF1D2;
+}
+
+#musicfile {
+  font-size: 5vw;
+  color: #494649;
+}
+
+#html5-text,
+#css3-text,
+#cplusplus-text {
+  color: #FFD470;
+  font-size: 1.3vw; 
+  padding-top: 1.43vw;
+}
+
+#musicfile-text {
+  color: #FFD470;
+  font-size: 1.3vw;
+  padding-top: 0.28vw;
+}
+
+.contact-block {
+  background-color: #B66A3E;
+  height: 50vh;
+}
+
+#contact-header {
+  color: #494649;
+  padding: 5vh 0;
+}
+
+.social-link {
+  font-size: 5vw;
+  color: #494649;
+}
+
+.social-link:hover {
+  color: #FFF1D2;
+}
+
+
+#mission-target, 
+#skills-target, 
+#contact-target {
+  position: relative;
+  top: -85px;
+}
+
+#footer-section {
+  width: 100%;
+  height: 75px;
+  margin-top: auto;
+  background-color: #252218;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-text {
+  color: #92B8C8;
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 0.90em;
+}
+
+
+
+
+
+
+
+
+
+

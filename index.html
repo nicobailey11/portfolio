@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <meta name="milestone" content="Portfolio">
+    <!-- TODO: Replace this with your title -->
+    <title>NabNico</title>  
+
+    <!-- Google Fonts Links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Kosugi+Maru&display=swap" rel="stylesheet">
+    <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/docs/5.2/getting-started/introduction/
+		-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- TODO: Paste Navbar code and customize links -->  
+    <nav class="navbar navbar-dark navbar-custom navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand me-5" href="#hero-section">
+          <i class="bi bi-camera2 mx-2"></i>
+        </a>
+        <div class="nametag"> 
+          <img src="img/navavatar.jpeg" id="nav-avatar"><span id="text-tag">@nabnico_</span>
+        </div>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-3">
+                <a class="nav-link navbar-text" href="#mission-target">Mission</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link navbar-text" href="#skills-target">Skills</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link navbar-text" href="#contact-target">Contact</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+  	<section id="hero-section">
+      <div class="hero-img" alt="A hero image of a soccer goal">
+        <div class="overlay">
+          <div class="hero-avatar" alt="An avatar of Nicolas"></div>
+          <br>
+          <br>
+          <div class="hero-text">
+            <h1 id="hero-heading">Nicolas Bailey</h1>  
+             <br>
+            <p id="hero-tag">Discovering passion through curiosity</p>
+          </div>
+        </div>
+      </div>
+  	</section>
+    
+    <!-- Projects section -->
+    <section id="projects-section">
+      <div id="projects-target"></div>
+      <div class="projects-block">
+        <div class="container text-center">
+          <div class="row mb-3">
+            <h1 id="projects-header">Projects</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <a href="https://marriott-bonvoypublicis-sapient-project-nb.coding-for-web-fall-23.repl.co/"><img src="img/marriott.jpg" id="marriott"></a>
+              <h3 id="marriott-text">Marriott Bonvoy/Publicis Sapient Project</h3>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <a href="#"><img src="img/question.jpg" id="question"></a>
+              <h3 id="question-text">Proj 2</h3>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <a href="#"><img src="img/question.jpg" id="question"></a>
+              <h3 id="question-text">Proj 3</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  	<!-- Mission/Meet-me section -->
+    <section id="mission-section">
+      <div id="mission-target"></div>
+      <div class="mission-block">
+        <div class="container text-center">
+          <div class="row">
+            <h1 id="mission-header">My Mission</h1>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mission-img mx-auto"></div>
+            <div class="col-md-6 mission-text">
+              <p>The mission is simple: to continue to discover new things and expand on the old. Curiosity is something we all have had growing up and I've recently noticed that for me, it's everlasting. It's said that humans ask about 70 questions per day and I strive to meet and break that limit, as our world is constantly evolving. With a hardworking mindset and passion for what I do, I find satisfaction in solving challenging problems and creating new, interesting things that will make an impact on the world.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  	</section>
+  
+    <!-- Skills section -->
+    <section id="skills-section">
+      <div id="skills-target"></div>
+      <div class="skills-block">
+        <div class="container text-center">
+          <div class="row mb-3">
+            <h1 id="skills-header">Skills</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <i class="devicon-html5-plain-wordmark" id="html5"></i>
+              <p id="html5-text">Gained knowledge in the concepts and principles of ideal webpage structure and organization. Also, implemented Bootstrap into projects with a good understanding of their custom classes.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <i class="devicon-css3-plain-wordmark" id="css3"></i>
+              <p id="css3-text"'>Able to customize webpages with vibrant colors and unique designs and effects thanks to the wide variety of available CSS properties.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <i class="devicon-cplusplus-plain" id="cplusplus"></i>
+              <p id="cplusplus-text">Understood the input/ouput model of C++ along with the syntax to support defining variables, functions, and guiding programming logic and management.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <i class="bi bi-file-earmark-music-fill" id="musicfile"></i>
+              <p id="musicfile-text">Trained in music production techniques specifically with Logic Pro X. Can understand how to mix and master projects with handling vocals and instruments while implementing creative direction to music.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  	</section>
+  
+    <!-- Contact Section -->
+    <section id="contact-section">
+      <div id="contact-target"></div>
+      <div class="contact-block">
+        <div class="container text-center">
+          <div class="row mb-5">
+            <h1 id="contact-header">Contact Me</h1>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <a class="social-link" href="https://www.linkedin.com/in/nico-a-bailey/">
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <a class="social-link" href="https://www.instagram.com/nabnico_/">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <a class="social-link" href="https://soundcloud.com/nabnico?ref=clipboard&p=i&c=1&si=0225FC1229814B9FA30DD7D543CDDFCE&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+                <i class="bi bi-cloudy-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+  		https://getbootstrap.com/docs/5.2/getting-started/introduction/
+  	-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+
+  <!-- Footer section -->
+  <section id="footer-section">
+    <h3 id="footer-text">&copy; Nicolas Bailey 2023</h3>
+  </section>
+  
+</html>
