@@ -117,11 +117,15 @@ body {
 }
 
 #marriott {
-  width: 9.5vw;
+  width: 8vw;
 }
 
-#question {
-  width: 6.2vw;
+#madlibs {
+  width: 5.5vw;
+}
+
+#encouragement {
+  width: 10vw;
 }
 
 #marriott-text, #question-text {
